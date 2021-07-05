@@ -51,6 +51,33 @@
         z-index: -1;
         transition: all .4s;
     }
+}
+
+.btn-text{
+    &:link,
+    &:visited{
+        font-size: 1.6rem;
+        color: $color-primary;
+        border-bottom: 1px solid $color-primary;
+        text-decoration: none;
+        padding: .3rem;
+        display: inline-block;
+        transition: all .4s;
     }
+
+    &:hover{
+        color: $color-white;
+        background-color: $color-primary;
+        border: none;
+        transform: translateY(-.3rem);
+        box-shadow: 0 1rem 2rem rgba($color-black, .15);
+        padding: .3rem .8rem;
+    }
+
+    &:active{
+        transform: translateY(-.1rem);
+        box-shadow: 0 .5rem 1rem rgba($color-black, .15);
+    }
+}
     
     
