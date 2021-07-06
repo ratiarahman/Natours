@@ -11,3 +11,8 @@ GRID: Float
 -clip-path<br>
 -background-clip<br>
 -clearfix<br>
+-backface-visibility<br>
+-perspective<br>
+-background-blend-mode (This is just WOW)<br>
+-box-decoration-break<br>
+
