@@ -23,7 +23,6 @@
             transform: rotateY(180deg);
             color: $color-white;
             text-align: center;
-            position: relative;
 
             &-1{
                 background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
@@ -120,6 +119,16 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        width: 90%;
+        text-transform: uppercase;
+
+        &--only{
+            font-size: 1.4rem;
+        }
+        &--value{
+            font-size: 6rem;
+            font-weight: 100;
+        }
     }
 
 }
