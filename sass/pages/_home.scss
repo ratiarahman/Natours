@@ -14,10 +14,15 @@
     background-size: cover;
     transform: skewY(-7deg);
     margin-top: -15rem;
-
     // clip-path: polygon(0 30%, 100% 0, 100% 73%, 0 100%);
 
     & > *{
         transform: skewY(7deg);
     }
+}
+
+.section-tour{
+    background-color: $color-grey-light-1;
+    padding: 25rem 0 50rem 0;
+    margin-top: -12rem;
 }
