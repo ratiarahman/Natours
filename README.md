@@ -15,4 +15,7 @@ GRID: Float
 -perspective<br>
 -background-blend-mode (This is just WOW)<br>
 -box-decoration-break<br>
+-filter: blur() brightness()
+-video<br>
+-object-fit<br>
 
