@@ -1,10 +1,13 @@
 # Natours
-Advanced CSS, Sass
+Advanced CSS, Sass<br>
+GRID: Float
 
 -BEM: Block Element Modifier<br>
+-(7-1) pattern<br>
 -Animation<br>
 -Semantic<br>
 -calc()<br>
+-:not()<br>
 -clip-path<br>
 -background-clip<br>
 -clearfix<br>
