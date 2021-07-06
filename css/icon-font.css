@@ -37,7 +37,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+/* 
 .icon-basic-accelerator:before {
   content: "a";
 }
@@ -118,11 +118,11 @@
 }
 .icon-basic-clubs:before {
   content: "A";
-}
+}*/
 .icon-basic-compass:before {
   content: "B";
 }
-.icon-basic-cup:before {
+/*.icon-basic-cup:before {
   content: "C";
 }
 .icon-basic-diamonds:before {
@@ -181,11 +181,11 @@
 }
 .icon-basic-headset:before {
   content: "V";
-}
+}*/
 .icon-basic-heart:before {
   content: "W";
 }
-.icon-basic-heart-broken:before {
+/*.icon-basic-heart-broken:before {
   content: "X";
 }
 .icon-basic-helm:before {
@@ -253,11 +253,11 @@
 }
 .icon-basic-male:before {
   content: "*";
-}
+}*/
 .icon-basic-map:before {
   content: "+";
 }
-.icon-basic-message:before {
+/*.icon-basic-message:before {
   content: ",";
 }
 .icon-basic-message-multiple:before {
@@ -439,7 +439,7 @@
 }
 .icon-basic-webpage-txt:before {
   content: "\e027";
-}
+}*/
 .icon-basic-world:before {
   content: "\e028";
 }
