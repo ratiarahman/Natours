@@ -26,4 +26,9 @@ GRID: Float
 -:placeholder-shown<br>
 -:focus:invalid<br>
 -cubic bezier()<br>
+-:target<br>
+-column-count/gap/rule<br>
+-hyphens<br>
+-display:table/table-cell<br>
+-verticle-align<br>
 
