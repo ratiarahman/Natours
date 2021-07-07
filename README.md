@@ -3,8 +3,10 @@ Advanced CSS, Sass<br>
 GRID: Float
 
 -BEM: Block Element Modifier<br>
+-sibling selector<br>
 -(7-1) pattern<br>
 -Animation<br>
+-animation-fill-mode<br>
 -Semantic<br>
 -calc()<br>
 -:not()<br>
@@ -18,4 +20,6 @@ GRID: Float
 -filter: blur() brightness()<br>
 -video<br>
 -object-fit<br>
+-:placeholder-shown<br>
+-:focus:invalid<br>
 
