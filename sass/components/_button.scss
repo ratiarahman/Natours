@@ -1,5 +1,6 @@
 
 .btn{
+    &,
     &:link,
     &:visited{
         text-decoration: none;
@@ -10,6 +11,10 @@
         transition: all .4s;
         position: relative;
         font-size: 1.6rem;
+
+        //for button
+        border: none;
+        cursor: pointer;
       }
     &--white{
         background-color: $color-white;
@@ -21,14 +26,10 @@
     }
     &--green{
         color: $color-white;
-        background-image: linear-gradient(to right bottom, 
-            rgba($color-primary-light, .85), 
-            rgba($color-primary-dark, .85));
+        background-color: $color-primary;
 
         &::after{
-            background-image: linear-gradient(to right bottom, 
-                rgba($color-primary-light, .85), 
-                rgba($color-primary-dark, .85));
+            background-color: $color-primary;
         }
     }
     
