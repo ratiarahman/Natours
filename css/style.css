@@ -449,7 +449,6 @@ body {
     width: 70%;
     display: table-cell;
     padding: 2rem;
-    vertical-align: middle;
     vertical-align: middle; }
   .popup__left {
     width: 30%;
