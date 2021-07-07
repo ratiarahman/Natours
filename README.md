@@ -5,8 +5,11 @@ GRID: Float
 -BEM: Block Element Modifier<br>
 -sibling selector<br>
 -(7-1) pattern<br>
+-checkbox hack<br>
 -Animation<br>
 -animation-fill-mode<br>
+-linear-gradient<br>
+-radial-gradient<br>
 -Semantic<br>
 -calc()<br>
 -:not()<br>
@@ -22,4 +25,5 @@ GRID: Float
 -object-fit<br>
 -:placeholder-shown<br>
 -:focus:invalid<br>
+-cubic bezier()<br>
 
