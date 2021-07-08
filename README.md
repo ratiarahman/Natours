@@ -32,3 +32,12 @@ GRID: Float
 -display:table/table-cell<br>
 -verticle-align<br>
 
+# Responsive
+-responsive with mixin (@content | $breakpoint | @if)
+
+# Responsive Image
+
+1. Resolution Switching
+2. Density Switching
+3. Art Direction
+
