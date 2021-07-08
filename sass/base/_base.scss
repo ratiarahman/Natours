@@ -8,9 +8,24 @@
 
 html{
     font-size: 62.5%;  /* means 10px { (10/16) * 100 } ..this defines 1rem*/
+    @include responsive(tab-land) { // width < 1200?
+        font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
+    }
+
+    @include responsive(tab-port) { // width < 900?
+        font-size: 50%; //1 rem = 8px, 8/16 = 50%
+    }
+    
+    @include responsive(big-desktop) {
+        font-size: 75%; //1rem = 12, 12/16
+    }
 }
 
 body{
     padding: 3rem;
     box-sizing: border-box;  
+
+    @include responsive(phone) {
+        padding: 0;
+    }
 }

@@ -10,7 +10,6 @@
     &__circle{
         height: 15rem;
         width: 15rem;
-        background-color: red;
         float: left;
         -webkit-shape-outside: circle(50% at 50% 50%);
         shape-outside: circle(50% at 50% 50%);
@@ -26,6 +25,7 @@
         // transition: all .5s ease-in-out;
         // backface-visibility: hidden;
     }
+
 
     &__caption{
         position: absolute;
@@ -53,5 +53,26 @@
     &:hover &__img{
         transform: translateX(-4rem) scale(1);
         filter: blur(.3rem) brightness(80%);
+    }
+
+    
+    
+    @include responsive(tab-port){
+        transform: skewX(0);
+        width: 100%;
+
+        &__circle{
+            float: none;
+            transform: translateX(-3rem) translateY(-1rem) skewX(0);
+            margin: 0 auto;
+
+        }
+
+        &__text{
+            transform: skewX(0);
+            width: 100%;
+            margin-top: 2rem;
+        }
+    
     }
 }
