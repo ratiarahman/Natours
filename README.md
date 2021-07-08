@@ -43,4 +43,6 @@ GRID: Float
 
 -picture tag | source | srcset | media
 
+# Browser Support
+-@support()
 
