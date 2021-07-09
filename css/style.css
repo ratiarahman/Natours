@@ -70,6 +70,10 @@ body {
     body {
       padding: 0; } }
 
+::selection {
+  background-color: #55c57a;
+  color: white; }
+
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -323,7 +327,7 @@ body {
     .card__price--value {
       font-size: 6rem;
       font-weight: 100; }
-  @media only screen and (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em), only screen and (hover: none) {
     .card {
       height: auto;
       box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
@@ -477,6 +481,7 @@ body {
 
 .popup {
   background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
   height: 100vh;
   width: 100%;
   position: fixed;
