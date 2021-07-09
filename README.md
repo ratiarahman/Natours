@@ -31,9 +31,11 @@ GRID: Float
 -hyphens<br>
 -display:table/table-cell<br>
 -verticle-align<br>
+-::selection
 
 # Responsive
 -responsive with mixin (@content | $breakpoint | @if)
+-only screen and (hover:none) {for touch screen}
 
 # Responsive Image
 
